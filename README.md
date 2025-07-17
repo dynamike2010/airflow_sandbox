@@ -58,8 +58,8 @@ This project provides a simple setup for testing Apache Airflow 2.6.3 using Dock
 The example DAGs demonstrate dependency patterns between DAGs:
 
 1. `dbt_build_monolith.py` (DAG ID: `dbt_build_monolith`): Base DAG that branches based on odd/even minutes
-2. `success_sensor.py` (DAG ID: `etl_success_sensor`): Triggered when DAG 1 succeeds
-3. `failure_sensor.py` (DAG ID: `etl_failure_sensor`): Triggered when DAG 1 fails
+2. `success_sensor.py` (DAG ID: `etl_success_sensor`): Triggered when `dbt_build_monolith` succeeds
+3. `failure_sensor.py` (DAG ID: `etl_failure_sensor`): Triggered when `dbt_build_monolith` fails
 4. `data_ops.py` (DAG ID: `data_ops`): DAG for data operations pipeline
 
 You can visualize this dependency graph in the Airflow UI by clicking on the DAG name and then viewing the Graph view.
