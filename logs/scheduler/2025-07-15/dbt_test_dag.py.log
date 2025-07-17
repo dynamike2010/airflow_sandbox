@@ -1,0 +1,336 @@
+[2025-07-15T18:56:08.023+0000] {processor.py:157} INFO - Started process (PID=170) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:56:08.028+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:56:08.028+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:56:08.028+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:56:08.038+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:56:08.044+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:56:08.065+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:56:08.065+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:56:08.083+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:56:08.083+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:53:08.083587+00:00, run_after=2025-07-15T18:56:08.083587+00:00
+[2025-07-15T18:56:08.096+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.075 seconds
+[2025-07-15T18:56:38.368+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:56:38.369+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:56:38.370+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:56:38.370+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:56:38.378+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:56:38.381+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:56:38.403+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:56:38.403+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:56:38.423+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:56:38.423+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:53:38.423291+00:00, run_after=2025-07-15T18:56:38.423291+00:00
+[2025-07-15T18:56:38.435+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.070 seconds
+[2025-07-15T18:57:08.781+0000] {processor.py:157} INFO - Started process (PID=264) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:57:08.782+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:57:08.783+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:57:08.782+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:57:08.791+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:57:08.798+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:57:08.814+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:57:08.813+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:57:08.827+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:57:08.827+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:54:08.827609+00:00, run_after=2025-07-15T18:57:08.827609+00:00
+[2025-07-15T18:57:08.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.062 seconds
+[2025-07-15T18:57:39.180+0000] {processor.py:157} INFO - Started process (PID=302) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:57:39.182+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:57:39.182+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:57:39.182+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:57:39.194+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:57:39.196+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:57:39.211+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:57:39.211+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:57:39.227+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:57:39.227+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:54:39.227559+00:00, run_after=2025-07-15T18:57:39.227559+00:00
+[2025-07-15T18:57:39.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.062 seconds
+[2025-07-15T18:58:09.590+0000] {processor.py:157} INFO - Started process (PID=348) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:58:09.591+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:58:09.592+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:58:09.592+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:58:09.600+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:58:09.604+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:58:09.622+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:58:09.622+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:58:09.637+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:58:09.637+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:55:09.637306+00:00, run_after=2025-07-15T18:58:09.637306+00:00
+[2025-07-15T18:58:09.650+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.063 seconds
+[2025-07-15T18:58:40.005+0000] {processor.py:157} INFO - Started process (PID=395) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:58:40.006+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:58:40.007+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:58:40.007+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:58:40.018+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:58:40.020+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:58:40.036+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:58:40.036+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:58:40.050+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:58:40.050+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:55:40.050746+00:00, run_after=2025-07-15T18:58:40.050746+00:00
+[2025-07-15T18:58:40.063+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.064 seconds
+[2025-07-15T18:59:10.383+0000] {processor.py:157} INFO - Started process (PID=442) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:59:10.384+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:59:10.384+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:59:10.384+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:59:10.392+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:59:10.394+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:59:10.413+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:59:10.413+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:59:10.426+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:59:10.426+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:56:10.426722+00:00, run_after=2025-07-15T18:59:10.426722+00:00
+[2025-07-15T18:59:10.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.058 seconds
+[2025-07-15T18:59:40.734+0000] {processor.py:157} INFO - Started process (PID=489) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:59:40.736+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T18:59:40.737+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:59:40.737+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:59:40.744+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T18:59:40.746+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T18:59:40.761+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:59:40.761+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T18:59:40.772+0000] {logging_mixin.py:150} INFO - [2025-07-15T18:59:40.772+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:56:40.772636+00:00, run_after=2025-07-15T18:59:40.772636+00:00
+[2025-07-15T18:59:40.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.052 seconds
+[2025-07-15T19:00:11.052+0000] {processor.py:157} INFO - Started process (PID=527) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:00:11.052+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:00:11.053+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:00:11.053+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:00:11.058+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:00:11.061+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:00:11.076+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:00:11.076+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:00:11.093+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:00:11.093+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:57:11.093661+00:00, run_after=2025-07-15T19:00:11.093661+00:00
+[2025-07-15T19:00:11.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.059 seconds
+[2025-07-15T19:00:41.388+0000] {processor.py:157} INFO - Started process (PID=574) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:00:41.389+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:00:41.390+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:00:41.390+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:00:41.397+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:00:41.399+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:00:41.423+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:00:41.423+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:00:41.440+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:00:41.439+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:57:41.439224+00:00, run_after=2025-07-15T19:00:41.439224+00:00
+[2025-07-15T19:00:41.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.068 seconds
+[2025-07-15T19:01:11.814+0000] {processor.py:157} INFO - Started process (PID=621) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:01:11.816+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:01:11.817+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:01:11.817+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:01:11.828+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:01:11.831+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:01:11.851+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:01:11.851+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:01:11.929+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:01:11.929+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:58:11.929289+00:00, run_after=2025-07-15T19:01:11.929289+00:00
+[2025-07-15T19:01:11.939+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.129 seconds
+[2025-07-15T19:01:42.311+0000] {processor.py:157} INFO - Started process (PID=668) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:01:42.311+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:01:42.312+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:01:42.312+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:01:42.321+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:01:42.324+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:01:42.338+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:01:42.338+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:01:42.411+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:01:42.411+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:58:42.411804+00:00, run_after=2025-07-15T19:01:42.411804+00:00
+[2025-07-15T19:01:42.422+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.114 seconds
+[2025-07-15T19:02:12.775+0000] {processor.py:157} INFO - Started process (PID=705) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:02:12.776+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:02:12.778+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:02:12.777+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:02:12.786+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:02:12.789+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:02:12.870+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:02:12.870+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:02:12.881+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:02:12.881+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:59:12.881739+00:00, run_after=2025-07-15T19:02:12.881739+00:00
+[2025-07-15T19:02:12.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.120 seconds
+[2025-07-15T19:02:43.327+0000] {processor.py:157} INFO - Started process (PID=752) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:02:43.328+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:02:43.330+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:02:43.330+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:02:43.409+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:02:43.411+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:02:43.422+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:02:43.422+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:02:43.433+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:02:43.433+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T18:59:43.433224+00:00, run_after=2025-07-15T19:02:43.433224+00:00
+[2025-07-15T19:02:43.444+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.120 seconds
+[2025-07-15T19:03:13.974+0000] {processor.py:157} INFO - Started process (PID=799) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:03:13.976+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:03:13.977+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:03:13.976+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:03:13.984+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:03:13.987+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:03:14.006+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:03:14.006+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:03:14.019+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:03:14.019+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:00:14.019631+00:00, run_after=2025-07-15T19:03:14.019631+00:00
+[2025-07-15T19:03:14.030+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.060 seconds
+[2025-07-15T19:03:44.448+0000] {processor.py:157} INFO - Started process (PID=846) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:03:44.451+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:03:44.451+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:03:44.451+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:03:44.459+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:03:44.462+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:03:44.482+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:03:44.482+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:03:44.496+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:03:44.496+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:00:44.496664+00:00, run_after=2025-07-15T19:03:44.496664+00:00
+[2025-07-15T19:03:44.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.064 seconds
+[2025-07-15T19:04:14.922+0000] {processor.py:157} INFO - Started process (PID=884) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:04:14.923+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:04:14.924+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:04:14.924+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:04:14.931+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:04:14.934+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:04:14.952+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:04:14.950+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:04:14.965+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:04:14.965+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:01:14.965715+00:00, run_after=2025-07-15T19:04:14.965715+00:00
+[2025-07-15T19:04:14.976+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.057 seconds
+[2025-07-15T19:04:45.347+0000] {processor.py:157} INFO - Started process (PID=931) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:04:45.348+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:04:45.349+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:04:45.348+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:04:45.359+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:04:45.362+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:04:45.377+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:04:45.377+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:04:45.391+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:04:45.391+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:01:45.391677+00:00, run_after=2025-07-15T19:04:45.391677+00:00
+[2025-07-15T19:04:45.403+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.059 seconds
+[2025-07-15T19:05:15.803+0000] {processor.py:157} INFO - Started process (PID=978) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:05:15.804+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:05:15.805+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:05:15.805+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:05:15.812+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:05:15.814+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:05:15.831+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:05:15.830+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:05:15.847+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:05:15.847+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:02:15.847569+00:00, run_after=2025-07-15T19:05:15.847569+00:00
+[2025-07-15T19:05:15.858+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.059 seconds
+[2025-07-15T19:05:46.130+0000] {processor.py:157} INFO - Started process (PID=1025) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:05:46.132+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:05:46.133+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:05:46.133+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:05:46.139+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:05:46.141+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:05:46.157+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:05:46.157+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:05:46.170+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:05:46.170+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:02:46.170237+00:00, run_after=2025-07-15T19:05:46.170237+00:00
+[2025-07-15T19:05:46.183+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.056 seconds
+[2025-07-15T19:06:16.821+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:06:16.822+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:06:16.822+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:06:16.822+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:06:16.831+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:06:16.833+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:06:16.853+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:06:16.852+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:06:16.868+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:06:16.868+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:03:16.868218+00:00, run_after=2025-07-15T19:06:16.868218+00:00
+[2025-07-15T19:06:16.878+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.061 seconds
+[2025-07-15T19:06:47.260+0000] {processor.py:157} INFO - Started process (PID=1109) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:06:47.261+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:06:47.261+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:06:47.261+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:06:47.269+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:06:47.273+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:06:47.293+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:06:47.292+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:06:47.306+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:06:47.306+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:03:47.306343+00:00, run_after=2025-07-15T19:06:47.306343+00:00
+[2025-07-15T19:06:47.315+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.059 seconds
+[2025-07-15T19:07:17.771+0000] {processor.py:157} INFO - Started process (PID=1156) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:07:17.773+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:07:17.774+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:07:17.773+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:07:17.781+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:07:17.784+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:07:17.804+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:07:17.804+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:07:17.824+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:07:17.824+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:04:17.824122+00:00, run_after=2025-07-15T19:07:17.824122+00:00
+[2025-07-15T19:07:17.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.069 seconds
+[2025-07-15T19:12:48.524+0000] {processor.py:157} INFO - Started process (PID=1195) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:12:48.525+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:12:48.526+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:12:48.525+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:12:48.538+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:12:48.547+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:12:48.595+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:12:48.595+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:12:48.627+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:12:48.626+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:09:48.626764+00:00, run_after=2025-07-15T19:12:48.626764+00:00
+[2025-07-15T19:12:48.655+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.133 seconds
+[2025-07-15T19:13:19.084+0000] {processor.py:157} INFO - Started process (PID=1232) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:13:19.084+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:13:19.085+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:13:19.085+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:13:19.092+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:13:19.096+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:13:19.115+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:13:19.115+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:13:19.128+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:13:19.128+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:10:19.128409+00:00, run_after=2025-07-15T19:13:19.128409+00:00
+[2025-07-15T19:13:19.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.057 seconds
+[2025-07-15T19:13:49.494+0000] {processor.py:157} INFO - Started process (PID=1279) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:13:49.495+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:13:49.495+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:13:49.495+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:13:49.507+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:13:49.509+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:13:49.527+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:13:49.527+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:13:49.543+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:13:49.543+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:10:49.542930+00:00, run_after=2025-07-15T19:13:49.542930+00:00
+[2025-07-15T19:13:49.556+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.065 seconds
+[2025-07-15T19:14:19.908+0000] {processor.py:157} INFO - Started process (PID=1326) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:14:19.909+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:14:19.910+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:14:19.909+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:14:19.920+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:14:19.923+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:14:19.941+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:14:19.940+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:14:19.955+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:14:19.955+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:11:19.954895+00:00, run_after=2025-07-15T19:14:19.954895+00:00
+[2025-07-15T19:14:19.967+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.063 seconds
+[2025-07-15T19:14:50.333+0000] {processor.py:157} INFO - Started process (PID=1372) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:14:50.334+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:14:50.335+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:14:50.335+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:14:50.343+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:14:50.345+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:14:50.366+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:14:50.366+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:14:50.379+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:14:50.379+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:11:50.379287+00:00, run_after=2025-07-15T19:14:50.379287+00:00
+[2025-07-15T19:14:50.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.062 seconds
+[2025-07-15T19:15:20.717+0000] {processor.py:157} INFO - Started process (PID=1418) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:15:20.717+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:15:20.718+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:15:20.717+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:15:20.724+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:15:20.727+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:15:20.742+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:15:20.742+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:15:20.755+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:15:20.755+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:12:20.755308+00:00, run_after=2025-07-15T19:15:20.755308+00:00
+[2025-07-15T19:15:20.766+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.051 seconds
+[2025-07-15T19:15:51.125+0000] {processor.py:157} INFO - Started process (PID=1456) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:15:51.125+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:15:51.126+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:15:51.126+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:15:51.134+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:15:51.138+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:15:51.154+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:15:51.154+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:15:51.167+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:15:51.167+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:12:51.167243+00:00, run_after=2025-07-15T19:15:51.167243+00:00
+[2025-07-15T19:15:51.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.056 seconds
+[2025-07-15T19:16:21.456+0000] {processor.py:157} INFO - Started process (PID=1502) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:16:21.457+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:16:21.458+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:16:21.458+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:16:21.470+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:16:21.473+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:16:21.489+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:16:21.489+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:16:21.502+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:16:21.502+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:13:21.502304+00:00, run_after=2025-07-15T19:16:21.502304+00:00
+[2025-07-15T19:16:21.514+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.061 seconds
+[2025-07-15T19:16:51.795+0000] {processor.py:157} INFO - Started process (PID=1549) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:16:51.795+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:16:51.796+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:16:51.796+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:16:51.802+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:16:51.804+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:16:51.822+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:16:51.822+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:16:51.837+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:16:51.837+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:13:51.836906+00:00, run_after=2025-07-15T19:16:51.836906+00:00
+[2025-07-15T19:16:51.849+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.057 seconds
+[2025-07-15T19:17:22.201+0000] {processor.py:157} INFO - Started process (PID=1596) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:17:22.201+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:17:22.202+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:17:22.202+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:17:22.207+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:17:22.211+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:17:22.227+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:17:22.227+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:17:22.241+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:17:22.241+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:14:22.241131+00:00, run_after=2025-07-15T19:17:22.241131+00:00
+[2025-07-15T19:17:22.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.056 seconds
+[2025-07-15T19:17:52.648+0000] {processor.py:157} INFO - Started process (PID=1644) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:17:52.649+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:17:52.649+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:17:52.649+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:17:52.657+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:17:52.660+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:17:52.682+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:17:52.682+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:17:52.698+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:17:52.698+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:14:52.698459+00:00, run_after=2025-07-15T19:17:52.698459+00:00
+[2025-07-15T19:17:52.711+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.067 seconds
+[2025-07-15T19:18:23.081+0000] {processor.py:157} INFO - Started process (PID=1699) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:18:23.082+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:18:23.084+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:18:23.084+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:18:23.091+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:18:23.093+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:18:23.112+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:18:23.112+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:18:23.129+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:18:23.129+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:15:23.128938+00:00, run_after=2025-07-15T19:18:23.128938+00:00
+[2025-07-15T19:18:23.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.065 seconds
+[2025-07-15T19:18:53.427+0000] {processor.py:157} INFO - Started process (PID=1746) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:18:53.430+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:18:53.430+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:18:53.430+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:18:53.438+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:18:53.440+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:18:53.455+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:18:53.455+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:18:53.471+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:18:53.471+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:15:53.470923+00:00, run_after=2025-07-15T19:18:53.470923+00:00
+[2025-07-15T19:18:53.484+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.060 seconds
+[2025-07-15T19:19:23.777+0000] {processor.py:157} INFO - Started process (PID=1792) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:19:23.778+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:19:23.778+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:19:23.778+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:19:23.785+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:19:23.788+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:19:23.804+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:19:23.804+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:19:23.817+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:19:23.817+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:16:23.817666+00:00, run_after=2025-07-15T19:19:23.817666+00:00
+[2025-07-15T19:19:23.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.053 seconds
+[2025-07-15T19:19:54.165+0000] {processor.py:157} INFO - Started process (PID=1829) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:19:54.166+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:19:54.167+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:19:54.167+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:19:54.174+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:19:54.176+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:19:54.198+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:19:54.198+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:19:54.212+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:19:54.212+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:16:54.212309+00:00, run_after=2025-07-15T19:19:54.212309+00:00
+[2025-07-15T19:19:54.224+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.061 seconds
+[2025-07-15T19:20:24.552+0000] {processor.py:157} INFO - Started process (PID=1876) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:20:24.553+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:20:24.554+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:20:24.554+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:20:24.565+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:20:24.567+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:20:24.582+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:20:24.582+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:20:24.598+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:20:24.598+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:17:24.597960+00:00, run_after=2025-07-15T19:20:24.597960+00:00
+[2025-07-15T19:20:24.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.060 seconds
+[2025-07-15T19:20:54.878+0000] {processor.py:157} INFO - Started process (PID=1923) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:20:54.878+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:20:54.879+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:20:54.879+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:20:54.887+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:20:54.890+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:20:54.908+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:20:54.908+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:20:54.923+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:20:54.923+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:17:54.923316+00:00, run_after=2025-07-15T19:20:54.923316+00:00
+[2025-07-15T19:20:54.937+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.061 seconds
+[2025-07-15T19:21:25.205+0000] {processor.py:157} INFO - Started process (PID=1970) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:21:25.206+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:21:25.207+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:21:25.207+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:21:25.215+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:21:25.218+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:21:25.234+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:21:25.234+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:21:25.250+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:21:25.249+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:18:25.249864+00:00, run_after=2025-07-15T19:21:25.249864+00:00
+[2025-07-15T19:21:25.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.060 seconds
+[2025-07-15T19:21:55.558+0000] {processor.py:157} INFO - Started process (PID=2008) to work on /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:21:55.559+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/dbt_test_dag.py for tasks to queue
+[2025-07-15T19:21:55.560+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:21:55.560+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:21:55.566+0000] {logging_mixin.py:150} WARNING - /home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py:166 RemovedInAirflow3Warning: none_failed_or_skipped Trigger Rule is deprecated. Please use `none_failed_min_one_success`.
+[2025-07-15T19:21:55.569+0000] {processor.py:836} INFO - DAG(s) dict_keys(['dbt_build_ETL_monolith']) retrieved from /opt/airflow/dags/dbt_test_dag.py
+[2025-07-15T19:21:55.588+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:21:55.588+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-15T19:21:55.604+0000] {logging_mixin.py:150} INFO - [2025-07-15T19:21:55.604+0000] {dag.py:3508} INFO - Setting next_dagrun for dbt_build_ETL_monolith to 2025-07-15T19:18:55.604007+00:00, run_after=2025-07-15T19:21:55.604007+00:00
+[2025-07-15T19:21:55.616+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/dbt_test_dag.py took 0.061 seconds

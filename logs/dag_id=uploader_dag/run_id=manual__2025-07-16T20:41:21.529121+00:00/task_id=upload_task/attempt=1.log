@@ -1,0 +1,19 @@
+[2025-07-16T20:41:22.008+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: uploader_dag.upload_task manual__2025-07-16T20:41:21.529121+00:00 [queued]>
+[2025-07-16T20:41:22.011+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: uploader_dag.upload_task manual__2025-07-16T20:41:21.529121+00:00 [queued]>
+[2025-07-16T20:41:22.012+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-16T20:41:22.018+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): upload_task> on 2025-07-16 20:41:21.529121+00:00
+[2025-07-16T20:41:22.020+0000] {standard_task_runner.py:57} INFO - Started process 1854 to run task
+[2025-07-16T20:41:22.021+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'uploader_dag', 'upload_task', 'manual__2025-07-16T20:41:21.529121+00:00', '--job-id', '410', '--raw', '--subdir', 'DAGS_FOLDER/uploader_dag.py', '--cfg-path', '/tmp/tmp9wznb0hw']
+[2025-07-16T20:41:22.022+0000] {standard_task_runner.py:85} INFO - Job 410: Subtask upload_task
+[2025-07-16T20:41:22.041+0000] {task_command.py:410} INFO - Running <TaskInstance: uploader_dag.upload_task manual__2025-07-16T20:41:21.529121+00:00 [running]> on host 66ed94c0a57f
+[2025-07-16T20:41:22.078+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='uploader_dag' AIRFLOW_CTX_TASK_ID='upload_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T20:41:21.529121+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-16T20:41:21.529121+00:00'
+[2025-07-16T20:41:22.078+0000] {logging_mixin.py:150} INFO - Received conf: {'dag_id': 'dbt_build_monolith', 'command': 'upload', 'date_time': '2025-07-16T20:41:21.402814+00:00'}
+[2025-07-16T20:41:22.078+0000] {logging_mixin.py:150} INFO - message: dag_id='dbt_build_monolith' command='upload' date_time='2025-07-16T20:41:21.402814+00:00'
+[2025-07-16T20:41:22.081+0000] {logging_mixin.py:150} INFO - Last run: 2025-07-16T20:35:51.672550+00:00
+[2025-07-16T20:41:22.081+0000] {logging_mixin.py:150} INFO - Uploading dbt artifacts to Secoda for DAG: 'dbt_build_monolith', command: 'upload'
+[2025-07-16T20:41:22.081+0000] {logging_mixin.py:150} INFO - Current time: 2025-07-16 20:41:22.081210+00:00
+[2025-07-16T20:41:22.083+0000] {crypto.py:83} WARNING - empty cryptography key - values will not be stored encrypted.
+[2025-07-16T20:41:32.090+0000] {python.py:183} INFO - Done. Returned value was: None
+[2025-07-16T20:41:32.114+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=uploader_dag, task_id=upload_task, execution_date=20250716T204121, start_date=20250716T204122, end_date=20250716T204132
+[2025-07-16T20:41:32.132+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-16T20:41:32.147+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

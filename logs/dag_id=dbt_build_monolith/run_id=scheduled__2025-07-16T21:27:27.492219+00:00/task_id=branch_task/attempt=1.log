@@ -1,0 +1,17 @@
+[2025-07-16T21:28:40.156+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_build_monolith.branch_task scheduled__2025-07-16T21:27:27.492219+00:00 [queued]>
+[2025-07-16T21:28:40.162+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_build_monolith.branch_task scheduled__2025-07-16T21:27:27.492219+00:00 [queued]>
+[2025-07-16T21:28:40.163+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-16T21:28:40.170+0000] {taskinstance.py:1327} INFO - Executing <Task(BranchPythonOperator): branch_task> on 2025-07-16 21:27:27.492219+00:00
+[2025-07-16T21:28:40.172+0000] {standard_task_runner.py:57} INFO - Started process 7430 to run task
+[2025-07-16T21:28:40.174+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dbt_build_monolith', 'branch_task', 'scheduled__2025-07-16T21:27:27.492219+00:00', '--job-id', '612', '--raw', '--subdir', 'DAGS_FOLDER/dbt_build_monolith.py', '--cfg-path', '/tmp/tmpfdu804ds']
+[2025-07-16T21:28:40.175+0000] {standard_task_runner.py:85} INFO - Job 612: Subtask branch_task
+[2025-07-16T21:28:40.193+0000] {task_command.py:410} INFO - Running <TaskInstance: dbt_build_monolith.branch_task scheduled__2025-07-16T21:27:27.492219+00:00 [running]> on host 66ed94c0a57f
+[2025-07-16T21:28:40.231+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_build_monolith' AIRFLOW_CTX_TASK_ID='branch_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T21:27:27.492219+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-16T21:27:27.492219+00:00'
+[2025-07-16T21:28:40.232+0000] {logging_mixin.py:150} INFO - Current minute is 28 which is even, going to 'fail_task'
+[2025-07-16T21:28:40.232+0000] {python.py:183} INFO - Done. Returned value was: fail_task
+[2025-07-16T21:28:40.232+0000] {python.py:216} INFO - Branch callable return fail_task
+[2025-07-16T21:28:40.232+0000] {skipmixin.py:164} INFO - Following branch fail_task
+[2025-07-16T21:28:40.232+0000] {skipmixin.py:224} INFO - Skipping tasks ['end_task']
+[2025-07-16T21:28:40.250+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dbt_build_monolith, task_id=branch_task, execution_date=20250716T212727, start_date=20250716T212840, end_date=20250716T212840
+[2025-07-16T21:28:40.269+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-16T21:28:40.287+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

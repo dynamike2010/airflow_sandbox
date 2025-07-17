@@ -1,0 +1,56 @@
+[2025-07-17T07:16:46.186+0000] {processor.py:157} INFO - Started process (PID=188) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:16:46.186+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:16:46.187+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:16:46.187+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:16:46.197+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:16:46.204+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:16:46.204+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:16:46.224+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:16:46.224+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:16:46.237+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.053 seconds
+[2025-07-17T07:17:16.657+0000] {processor.py:157} INFO - Started process (PID=250) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:17:16.658+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:17:16.658+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:16.658+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:17:16.666+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:17:16.680+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:16.680+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:17:16.694+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:16.694+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:17:16.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.050 seconds
+[2025-07-17T07:17:47.165+0000] {processor.py:157} INFO - Started process (PID=312) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:17:47.165+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:17:47.165+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:47.165+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:17:47.171+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:17:47.184+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:47.184+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:17:47.198+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:47.198+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:17:47.207+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.044 seconds
+[2025-07-17T07:18:17.680+0000] {processor.py:157} INFO - Started process (PID=372) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:18:17.681+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:18:17.681+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:17.681+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:18:17.690+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:18:17.706+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:17.706+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:18:17.720+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:17.720+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:18:17.732+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.054 seconds
+[2025-07-17T07:18:48.193+0000] {processor.py:157} INFO - Started process (PID=431) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:18:48.194+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:18:48.195+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:48.195+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:18:48.202+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:18:48.217+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:48.217+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:18:48.232+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:48.232+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:18:48.244+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.053 seconds
+[2025-07-17T07:19:18.665+0000] {processor.py:157} INFO - Started process (PID=492) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:19:18.665+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:19:18.666+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:18.666+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:19:18.672+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:19:18.687+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:18.687+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:19:18.699+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:18.699+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:19:18.708+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.047 seconds
+[2025-07-17T07:19:49.141+0000] {processor.py:157} INFO - Started process (PID=554) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:19:49.142+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:19:49.143+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:49.143+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:19:49.158+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:19:49.173+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:49.173+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:19:49.188+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:49.188+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:19:49.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.058 seconds
+[2025-07-17T07:20:19.685+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:20:19.685+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/success_sensor_dag.py for tasks to queue
+[2025-07-17T07:20:19.686+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:20:19.686+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:20:19.698+0000] {processor.py:836} INFO - DAG(s) dict_keys(['etl_success_sensor']) retrieved from /opt/airflow/dags/success_sensor_dag.py
+[2025-07-17T07:20:19.719+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:20:19.718+0000] {dag.py:2742} INFO - Sync 1 DAGs
+[2025-07-17T07:20:19.732+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:20:19.732+0000] {dag.py:3508} INFO - Setting next_dagrun for etl_success_sensor to None, run_after=None
+[2025-07-17T07:20:19.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/success_sensor_dag.py took 0.059 seconds

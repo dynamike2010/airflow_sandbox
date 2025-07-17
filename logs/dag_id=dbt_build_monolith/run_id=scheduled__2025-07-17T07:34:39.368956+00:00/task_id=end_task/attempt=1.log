@@ -1,0 +1,14 @@
+[2025-07-17T07:35:53.006+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_build_monolith.end_task scheduled__2025-07-17T07:34:39.368956+00:00 [queued]>
+[2025-07-17T07:35:53.010+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_build_monolith.end_task scheduled__2025-07-17T07:34:39.368956+00:00 [queued]>
+[2025-07-17T07:35:53.010+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-17T07:35:53.016+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): end_task> on 2025-07-17 07:34:39.368956+00:00
+[2025-07-17T07:35:53.018+0000] {standard_task_runner.py:57} INFO - Started process 2326 to run task
+[2025-07-17T07:35:53.020+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dbt_build_monolith', 'end_task', 'scheduled__2025-07-17T07:34:39.368956+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/dbt_build_monolith.py', '--cfg-path', '/tmp/tmpvq4yf6nr']
+[2025-07-17T07:35:53.021+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask end_task
+[2025-07-17T07:35:53.039+0000] {task_command.py:410} INFO - Running <TaskInstance: dbt_build_monolith.end_task scheduled__2025-07-17T07:34:39.368956+00:00 [running]> on host 515ade4cdc0f
+[2025-07-17T07:35:53.075+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_build_monolith' AIRFLOW_CTX_TASK_ID='end_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-17T07:34:39.368956+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-17T07:34:39.368956+00:00'
+[2025-07-17T07:35:53.076+0000] {logging_mixin.py:150} INFO - Executing end task - Success path
+[2025-07-17T07:35:53.076+0000] {python.py:183} INFO - Done. Returned value was: End task completed successfully
+[2025-07-17T07:35:53.084+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dbt_build_monolith, task_id=end_task, execution_date=20250717T073439, start_date=20250717T073553, end_date=20250717T073553
+[2025-07-17T07:35:53.118+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-17T07:35:53.128+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

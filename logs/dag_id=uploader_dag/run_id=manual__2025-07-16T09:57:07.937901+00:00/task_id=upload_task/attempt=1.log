@@ -1,0 +1,17 @@
+[2025-07-16T09:57:08.966+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: uploader_dag.upload_task manual__2025-07-16T09:57:07.937901+00:00 [queued]>
+[2025-07-16T09:57:08.970+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: uploader_dag.upload_task manual__2025-07-16T09:57:07.937901+00:00 [queued]>
+[2025-07-16T09:57:08.970+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-16T09:57:08.977+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): upload_task> on 2025-07-16 09:57:07.937901+00:00
+[2025-07-16T09:57:08.979+0000] {standard_task_runner.py:57} INFO - Started process 7644 to run task
+[2025-07-16T09:57:08.981+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'uploader_dag', 'upload_task', 'manual__2025-07-16T09:57:07.937901+00:00', '--job-id', '219', '--raw', '--subdir', 'DAGS_FOLDER/uploader_dag.py', '--cfg-path', '/tmp/tmp3rdwr72v']
+[2025-07-16T09:57:08.982+0000] {standard_task_runner.py:85} INFO - Job 219: Subtask upload_task
+[2025-07-16T09:57:09.002+0000] {task_command.py:410} INFO - Running <TaskInstance: uploader_dag.upload_task manual__2025-07-16T09:57:07.937901+00:00 [running]> on host 0f12c04aebf5
+[2025-07-16T09:57:09.041+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='uploader_dag' AIRFLOW_CTX_TASK_ID='upload_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T09:57:07.937901+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-16T09:57:07.937901+00:00'
+[2025-07-16T09:57:09.042+0000] {logging_mixin.py:150} INFO - Received conf: {'dag_id': 'dbt_build_monolith', 'command': 'upload', 'date_time': '2025-07-16T09:57:07.816027+00:00'}
+[2025-07-16T09:57:09.042+0000] {logging_mixin.py:150} INFO - message: dag_id='dbt_build_monolith' command='upload' date_time='2025-07-16T09:57:07.816027+00:00'
+[2025-07-16T09:57:09.045+0000] {logging_mixin.py:150} INFO - Last run: 2025-07-16T09:55:09.080691+00:00
+[2025-07-16T09:57:09.045+0000] {logging_mixin.py:150} INFO - Skipping upload for dbt_build_monolith: Last run was too recent
+[2025-07-16T09:57:09.045+0000] {python.py:183} INFO - Done. Returned value was: None
+[2025-07-16T09:57:09.050+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=uploader_dag, task_id=upload_task, execution_date=20250716T095707, start_date=20250716T095708, end_date=20250716T095709
+[2025-07-16T09:57:09.079+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-16T09:57:09.087+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

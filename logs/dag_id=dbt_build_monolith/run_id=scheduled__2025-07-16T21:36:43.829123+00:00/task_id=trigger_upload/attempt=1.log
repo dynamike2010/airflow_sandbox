@@ -1,0 +1,22 @@
+[2025-07-16T21:37:57.765+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_build_monolith.trigger_upload scheduled__2025-07-16T21:36:43.829123+00:00 [queued]>
+[2025-07-16T21:37:57.769+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_build_monolith.trigger_upload scheduled__2025-07-16T21:36:43.829123+00:00 [queued]>
+[2025-07-16T21:37:57.769+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-16T21:37:57.776+0000] {taskinstance.py:1327} INFO - Executing <Task(TriggerDagRunOperator): trigger_upload> on 2025-07-16 21:36:43.829123+00:00
+[2025-07-16T21:37:57.777+0000] {standard_task_runner.py:57} INFO - Started process 8526 to run task
+[2025-07-16T21:37:57.779+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dbt_build_monolith', 'trigger_upload', 'scheduled__2025-07-16T21:36:43.829123+00:00', '--job-id', '667', '--raw', '--subdir', 'DAGS_FOLDER/dbt_build_monolith.py', '--cfg-path', '/tmp/tmpy48w2nd0']
+[2025-07-16T21:37:57.780+0000] {standard_task_runner.py:85} INFO - Job 667: Subtask trigger_upload
+[2025-07-16T21:37:57.798+0000] {task_command.py:410} INFO - Running <TaskInstance: dbt_build_monolith.trigger_upload scheduled__2025-07-16T21:36:43.829123+00:00 [running]> on host 66ed94c0a57f
+[2025-07-16T21:37:57.834+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_build_monolith' AIRFLOW_CTX_TASK_ID='trigger_upload' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T21:36:43.829123+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-16T21:36:43.829123+00:00'
+[2025-07-16T21:37:57.845+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/trigger_dagrun.py", line 155, in execute
+    replace_microseconds=False,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/api/common/trigger_dag.py", line 128, in trigger_dag
+    replace_microseconds=replace_microseconds,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/api/common/trigger_dag.py", line 52, in _trigger_dag
+    raise DagNotFound(f"Dag id {dag_id} not found")
+airflow.exceptions.DagNotFound: Dag id uploader_dag not found
+[2025-07-16T21:37:57.847+0000] {taskinstance.py:1350} INFO - Marking task as UP_FOR_RETRY. dag_id=dbt_build_monolith, task_id=trigger_upload, execution_date=20250716T213643, start_date=20250716T213757, end_date=20250716T213757
+[2025-07-16T21:37:57.851+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 667 for task trigger_upload (Dag id uploader_dag not found; 8526)
+[2025-07-16T21:37:57.877+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-07-16T21:37:57.885+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

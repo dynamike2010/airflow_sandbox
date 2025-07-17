@@ -1,0 +1,245 @@
+[2025-07-17T07:16:46.251+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:16:46.252+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:16:46.252+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:16:46.252+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:16:46.257+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:16:46.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.016 seconds
+[2025-07-17T07:17:16.716+0000] {processor.py:157} INFO - Started process (PID=260) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:17:16.717+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:17:16.717+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:16.717+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:17:16.721+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:17:16.726+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.011 seconds
+[2025-07-17T07:17:47.257+0000] {processor.py:157} INFO - Started process (PID=324) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:17:47.257+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:17:47.257+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:17:47.257+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:17:47.259+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:17:47.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.009 seconds
+[2025-07-17T07:18:17.747+0000] {processor.py:157} INFO - Started process (PID=382) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:18:17.748+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:18:17.749+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:17.748+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:18:17.751+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:18:17.760+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds
+[2025-07-17T07:18:48.258+0000] {processor.py:157} INFO - Started process (PID=441) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:18:48.259+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:18:48.259+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:18:48.259+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:18:48.265+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:18:48.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds
+[2025-07-17T07:19:18.724+0000] {processor.py:157} INFO - Started process (PID=502) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:19:18.728+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:19:18.729+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:18.729+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:19:18.736+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:19:18.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.020 seconds
+[2025-07-17T07:19:49.214+0000] {processor.py:157} INFO - Started process (PID=564) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:19:49.214+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:19:49.215+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:19:49.215+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:19:49.217+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:19:49.225+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.013 seconds
+[2025-07-17T07:20:19.759+0000] {processor.py:157} INFO - Started process (PID=625) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:20:19.760+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:20:19.760+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:20:19.760+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:20:19.763+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:20:19.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds
+[2025-07-17T07:20:50.254+0000] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:20:50.255+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:20:50.256+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:20:50.256+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:20:50.259+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:20:50.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.017 seconds
+[2025-07-17T07:21:20.570+0000] {processor.py:157} INFO - Started process (PID=704) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:21:20.571+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:21:20.572+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:21:20.572+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:21:20.577+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:21:20.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.020 seconds
+[2025-07-17T07:21:51.169+0000] {processor.py:157} INFO - Started process (PID=766) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:21:51.170+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:21:51.171+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:21:51.171+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:21:51.177+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:21:51.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.021 seconds
+[2025-07-17T07:22:21.598+0000] {processor.py:157} INFO - Started process (PID=822) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:22:21.599+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:22:21.600+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:22:21.600+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:22:21.602+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:22:21.687+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.091 seconds
+[2025-07-17T07:22:51.961+0000] {processor.py:157} INFO - Started process (PID=870) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:22:51.962+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:22:51.963+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:22:51.962+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:22:51.967+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:22:51.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.018 seconds
+[2025-07-17T07:23:22.379+0000] {processor.py:157} INFO - Started process (PID=927) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:23:22.380+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:23:22.381+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:23:22.381+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:23:22.385+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:23:22.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:23:52.658+0000] {processor.py:157} INFO - Started process (PID=984) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:23:52.658+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:23:52.659+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:23:52.659+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:23:52.664+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:23:52.674+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:24:22.983+0000] {processor.py:157} INFO - Started process (PID=1040) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:24:22.983+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:24:22.984+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:24:22.984+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:24:22.988+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:24:22.995+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.014 seconds
+[2025-07-17T07:24:53.228+0000] {processor.py:157} INFO - Started process (PID=1088) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:24:53.229+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:24:53.230+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:24:53.230+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:24:53.233+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:24:53.242+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.017 seconds
+[2025-07-17T07:25:23.603+0000] {processor.py:157} INFO - Started process (PID=1145) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:25:23.604+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:25:23.605+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:25:23.605+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:25:23.610+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:25:23.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.021 seconds
+[2025-07-17T07:25:53.995+0000] {processor.py:157} INFO - Started process (PID=1202) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:25:53.996+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:25:53.997+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:25:53.997+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:25:54.000+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:25:54.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.018 seconds
+[2025-07-17T07:26:24.369+0000] {processor.py:157} INFO - Started process (PID=1259) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:26:24.370+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:26:24.370+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:26:24.370+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:26:24.375+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:26:24.386+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:26:54.747+0000] {processor.py:157} INFO - Started process (PID=1305) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:26:54.747+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:26:54.748+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:26:54.748+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:26:54.753+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:26:54.763+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:27:25.109+0000] {processor.py:157} INFO - Started process (PID=1362) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:27:25.110+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:27:25.110+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:27:25.110+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:27:25.116+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:27:25.125+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:27:55.470+0000] {processor.py:157} INFO - Started process (PID=1419) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:27:55.471+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:27:55.471+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:27:55.471+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:27:55.477+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:27:55.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:28:25.854+0000] {processor.py:157} INFO - Started process (PID=1475) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:28:25.856+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:28:25.857+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:28:25.856+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:28:25.861+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:28:25.873+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.020 seconds
+[2025-07-17T07:28:56.188+0000] {processor.py:157} INFO - Started process (PID=1523) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:28:56.189+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:28:56.190+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:28:56.189+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:28:56.196+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:28:56.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.021 seconds
+[2025-07-17T07:29:26.570+0000] {processor.py:157} INFO - Started process (PID=1580) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:29:26.571+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:29:26.571+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:29:26.571+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:29:26.577+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:29:26.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.020 seconds
+[2025-07-17T07:29:56.972+0000] {processor.py:157} INFO - Started process (PID=1637) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:29:56.974+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:29:56.975+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:29:56.975+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:29:56.978+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:29:56.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:30:27.397+0000] {processor.py:157} INFO - Started process (PID=1694) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:30:27.397+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:30:27.398+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:30:27.398+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:30:27.403+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:30:27.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:30:57.774+0000] {processor.py:157} INFO - Started process (PID=1742) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:30:57.774+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:30:57.775+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:30:57.775+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:30:57.780+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:30:57.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:31:28.133+0000] {processor.py:157} INFO - Started process (PID=1811) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:31:28.134+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:31:28.135+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:31:28.134+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:31:28.141+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:31:28.154+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.024 seconds
+[2025-07-17T07:31:58.601+0000] {processor.py:157} INFO - Started process (PID=1879) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:31:58.603+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:31:58.604+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:31:58.604+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:31:58.607+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:31:58.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:32:28.964+0000] {processor.py:157} INFO - Started process (PID=1936) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:32:28.965+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:32:28.965+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:32:28.965+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:32:28.970+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:32:28.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.021 seconds
+[2025-07-17T07:32:59.307+0000] {processor.py:157} INFO - Started process (PID=1997) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:32:59.308+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:32:59.309+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:32:59.308+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:32:59.312+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:32:59.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds
+[2025-07-17T07:33:29.779+0000] {processor.py:157} INFO - Started process (PID=2052) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:33:29.780+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:33:29.780+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:33:29.780+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:33:29.784+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:33:29.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.016 seconds
+[2025-07-17T07:34:00.161+0000] {processor.py:157} INFO - Started process (PID=2123) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:34:00.161+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:34:00.161+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:34:00.161+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:34:00.163+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:34:00.169+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.010 seconds
+[2025-07-17T07:34:30.518+0000] {processor.py:157} INFO - Started process (PID=2177) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:34:30.519+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:34:30.520+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:34:30.520+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:34:30.526+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:34:30.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:35:00.823+0000] {processor.py:157} INFO - Started process (PID=2239) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:35:00.823+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:35:00.824+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:35:00.824+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:35:00.827+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:35:00.836+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds
+[2025-07-17T07:35:31.186+0000] {processor.py:157} INFO - Started process (PID=2289) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:35:31.186+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:35:31.187+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:35:31.187+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:35:31.191+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:35:31.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.017 seconds
+[2025-07-17T07:36:01.606+0000] {processor.py:157} INFO - Started process (PID=2358) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:36:01.607+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:36:01.608+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:36:01.607+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:36:01.613+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:36:01.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.022 seconds
+[2025-07-17T07:36:32.021+0000] {processor.py:157} INFO - Started process (PID=2419) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:36:32.023+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:36:32.024+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:36:32.024+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:36:32.027+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:36:32.037+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.018 seconds
+[2025-07-17T07:37:02.354+0000] {processor.py:157} INFO - Started process (PID=2480) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:37:02.354+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:37:02.355+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:37:02.355+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:37:02.358+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:37:02.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds
+[2025-07-17T07:37:32.659+0000] {processor.py:157} INFO - Started process (PID=2538) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:37:32.660+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:37:32.661+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:37:32.661+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:37:32.667+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:37:32.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.022 seconds
+[2025-07-17T07:38:03.041+0000] {processor.py:157} INFO - Started process (PID=2595) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:38:03.042+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:38:03.042+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:38:03.042+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:38:03.047+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:38:03.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.019 seconds
+[2025-07-17T07:38:33.408+0000] {processor.py:157} INFO - Started process (PID=2660) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:38:33.410+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:38:33.411+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:38:33.411+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:38:33.414+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:38:33.423+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.017 seconds
+[2025-07-17T07:39:03.816+0000] {processor.py:157} INFO - Started process (PID=2717) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:39:03.817+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:39:03.818+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:39:03.818+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:39:03.820+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:39:03.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.014 seconds
+[2025-07-17T07:39:34.161+0000] {processor.py:157} INFO - Started process (PID=2775) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:39:34.163+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:39:34.164+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:39:34.164+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:39:34.167+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:39:34.177+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.020 seconds
+[2025-07-17T07:40:04.586+0000] {processor.py:157} INFO - Started process (PID=2832) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:40:04.587+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:40:04.588+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:40:04.588+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:40:04.592+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:40:04.604+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.021 seconds
+[2025-07-17T07:40:34.997+0000] {processor.py:157} INFO - Started process (PID=2897) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:40:34.999+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:40:35.003+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:40:35.001+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:40:35.008+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:40:35.024+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.029 seconds
+[2025-07-17T07:41:05.411+0000] {processor.py:157} INFO - Started process (PID=2954) to work on /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:41:05.412+0000] {processor.py:826} INFO - Processing file /opt/airflow/dags/sensors/recent_external_task_sensor.py for tasks to queue
+[2025-07-17T07:41:05.413+0000] {logging_mixin.py:150} INFO - [2025-07-17T07:41:05.413+0000] {dagbag.py:541} INFO - Filling up the DagBag from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:41:05.417+0000] {processor.py:838} WARNING - No viable dags retrieved from /opt/airflow/dags/sensors/recent_external_task_sensor.py
+[2025-07-17T07:41:05.424+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sensors/recent_external_task_sensor.py took 0.015 seconds

@@ -1,0 +1,15 @@
+[2025-07-15T19:49:49.313+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_failure_sensor.delay_task manual__2025-07-15T19:49:46.348877+00:00 [queued]>
+[2025-07-15T19:49:49.316+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_failure_sensor.delay_task manual__2025-07-15T19:49:46.348877+00:00 [queued]>
+[2025-07-15T19:49:49.317+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:49:49.323+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): delay_task> on 2025-07-15 19:49:46.348877+00:00
+[2025-07-15T19:49:49.325+0000] {standard_task_runner.py:57} INFO - Started process 4745 to run task
+[2025-07-15T19:49:49.326+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_failure_sensor', 'delay_task', 'manual__2025-07-15T19:49:46.348877+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/failure_sensor_dag.py', '--cfg-path', '/tmp/tmp27o3sxr4']
+[2025-07-15T19:49:49.327+0000] {standard_task_runner.py:85} INFO - Job 99: Subtask delay_task
+[2025-07-15T19:49:49.346+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_failure_sensor.delay_task manual__2025-07-15T19:49:46.348877+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:49:49.381+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_failure_sensor' AIRFLOW_CTX_TASK_ID='delay_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:49:46.348877+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:49:46.348877+00:00'
+[2025-07-15T19:49:49.382+0000] {logging_mixin.py:150} INFO - Delaying for 1 minute...
+[2025-07-15T19:50:49.419+0000] {logging_mixin.py:150} INFO - Delay complete.
+[2025-07-15T19:50:49.419+0000] {python.py:183} INFO - Done. Returned value was: None
+[2025-07-15T19:50:49.429+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=etl_failure_sensor, task_id=delay_task, execution_date=20250715T194946, start_date=20250715T194949, end_date=20250715T195049
+[2025-07-15T19:50:49.450+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:50:49.465+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

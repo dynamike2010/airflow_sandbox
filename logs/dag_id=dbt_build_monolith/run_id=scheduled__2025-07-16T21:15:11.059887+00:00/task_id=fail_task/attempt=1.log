@@ -1,0 +1,24 @@
+[2025-07-16T21:16:25.006+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_build_monolith.fail_task scheduled__2025-07-16T21:15:11.059887+00:00 [queued]>
+[2025-07-16T21:16:25.010+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_build_monolith.fail_task scheduled__2025-07-16T21:15:11.059887+00:00 [queued]>
+[2025-07-16T21:16:25.010+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2025-07-16T21:16:25.016+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): fail_task> on 2025-07-16 21:15:11.059887+00:00
+[2025-07-16T21:16:25.018+0000] {standard_task_runner.py:57} INFO - Started process 5952 to run task
+[2025-07-16T21:16:25.020+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dbt_build_monolith', 'fail_task', 'scheduled__2025-07-16T21:15:11.059887+00:00', '--job-id', '549', '--raw', '--subdir', 'DAGS_FOLDER/dbt_build_monolith.py', '--cfg-path', '/tmp/tmpkkrlbwnp']
+[2025-07-16T21:16:25.021+0000] {standard_task_runner.py:85} INFO - Job 549: Subtask fail_task
+[2025-07-16T21:16:25.039+0000] {task_command.py:410} INFO - Running <TaskInstance: dbt_build_monolith.fail_task scheduled__2025-07-16T21:15:11.059887+00:00 [running]> on host 66ed94c0a57f
+[2025-07-16T21:16:25.075+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_build_monolith' AIRFLOW_CTX_TASK_ID='fail_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T21:15:11.059887+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-16T21:15:11.059887+00:00'
+[2025-07-16T21:16:25.076+0000] {logging_mixin.py:150} INFO - Executing fail task - Failure path
+[2025-07-16T21:16:25.076+0000] {logging_mixin.py:150} INFO - Current time: 2025-07-16 21:16:25.076275
+[2025-07-16T21:16:25.076+0000] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dbt_build_monolith.py", line 55, in fail_task
+    raise ValueError("This task is designed to fail on even minutes")
+ValueError: This task is designed to fail on even minutes
+[2025-07-16T21:16:25.079+0000] {taskinstance.py:1350} INFO - Marking task as FAILED. dag_id=dbt_build_monolith, task_id=fail_task, execution_date=20250716T211511, start_date=20250716T211625, end_date=20250716T211625
+[2025-07-16T21:16:25.083+0000] {standard_task_runner.py:109} ERROR - Failed to execute job 549 for task fail_task (This task is designed to fail on even minutes; 5952)
+[2025-07-16T21:16:25.118+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2025-07-16T21:16:25.126+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

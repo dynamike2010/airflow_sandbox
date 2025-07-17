@@ -1,0 +1,197 @@
+[2025-07-15T19:39:41.469+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:39:41.473+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:39:41.473+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:39:41.480+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:39:41.481+0000] {standard_task_runner.py:57} INFO - Started process 3607 to run task
+[2025-07-15T19:39:41.483+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmpltlndi4f']
+[2025-07-15T19:39:41.484+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask wait_for_etl_success
+[2025-07-15T19:39:41.505+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:39:41.540+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:39:41.543+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:39:41.543886+00:00 and 2025-07-15T19:39:41.543886+00:00, looking for states: ['success']
+[2025-07-15T19:39:41.548+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:39:41.556+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:39:41.580+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:39:41.593+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:40:11.884+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:40:11.889+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:40:11.889+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:40:11.899+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:40:11.903+0000] {standard_task_runner.py:57} INFO - Started process 3669 to run task
+[2025-07-15T19:40:11.905+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp46zq6odp']
+[2025-07-15T19:40:11.906+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask wait_for_etl_success
+[2025-07-15T19:40:11.928+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:40:11.967+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:40:11.971+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:40:11.971837+00:00 and 2025-07-15T19:40:11.971837+00:00, looking for states: ['success']
+[2025-07-15T19:40:11.977+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:40:11.985+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:40:12.005+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:40:12.019+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:40:43.252+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:40:43.256+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:40:43.256+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:40:43.263+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:40:43.265+0000] {standard_task_runner.py:57} INFO - Started process 3719 to run task
+[2025-07-15T19:40:43.266+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmpjes9yv0y']
+[2025-07-15T19:40:43.268+0000] {standard_task_runner.py:85} INFO - Job 26: Subtask wait_for_etl_success
+[2025-07-15T19:40:43.291+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:40:43.325+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:40:43.329+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:40:43.329066+00:00 and 2025-07-15T19:40:43.329066+00:00, looking for states: ['success']
+[2025-07-15T19:40:43.333+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:40:43.341+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:40:43.364+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:40:43.378+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:41:14.554+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:41:14.559+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:41:14.559+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:41:14.567+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:41:14.569+0000] {standard_task_runner.py:57} INFO - Started process 3781 to run task
+[2025-07-15T19:41:14.571+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp62rp3cnl']
+[2025-07-15T19:41:14.572+0000] {standard_task_runner.py:85} INFO - Job 28: Subtask wait_for_etl_success
+[2025-07-15T19:41:14.594+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:41:14.632+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:41:14.637+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:41:14.636981+00:00 and 2025-07-15T19:41:14.636981+00:00, looking for states: ['success']
+[2025-07-15T19:41:14.642+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:41:14.651+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:41:14.670+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:41:14.684+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:41:44.944+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:41:44.948+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:41:44.948+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:41:44.956+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:41:44.958+0000] {standard_task_runner.py:57} INFO - Started process 3826 to run task
+[2025-07-15T19:41:44.960+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmpmznz5oab']
+[2025-07-15T19:41:44.961+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask wait_for_etl_success
+[2025-07-15T19:41:44.983+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:41:45.018+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:41:45.023+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:41:45.023383+00:00 and 2025-07-15T19:41:45.023383+00:00, looking for states: ['success']
+[2025-07-15T19:41:45.029+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:41:45.038+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:41:45.057+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:41:45.072+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:42:15.278+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:42:15.281+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:42:15.281+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:42:15.288+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:42:15.290+0000] {standard_task_runner.py:57} INFO - Started process 3885 to run task
+[2025-07-15T19:42:15.291+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp6uoliqhn']
+[2025-07-15T19:42:15.292+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask wait_for_etl_success
+[2025-07-15T19:42:15.311+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:42:15.342+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:42:15.346+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:42:15.346573+00:00 and 2025-07-15T19:42:15.346573+00:00, looking for states: ['success']
+[2025-07-15T19:42:15.351+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:42:15.359+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:42:15.392+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:42:15.406+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:42:45.702+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:42:45.707+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:42:45.709+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:42:45.717+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:42:45.719+0000] {standard_task_runner.py:57} INFO - Started process 3949 to run task
+[2025-07-15T19:42:45.721+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp9iyhfls9']
+[2025-07-15T19:42:45.722+0000] {standard_task_runner.py:85} INFO - Job 39: Subtask wait_for_etl_success
+[2025-07-15T19:42:45.744+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:42:45.778+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:42:45.782+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:42:45.782479+00:00 and 2025-07-15T19:42:45.782479+00:00, looking for states: ['success']
+[2025-07-15T19:42:45.787+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:42:45.795+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:42:45.816+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:42:45.829+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:43:16.998+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:43:17.003+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:43:17.003+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:43:17.009+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:43:17.011+0000] {standard_task_runner.py:57} INFO - Started process 4003 to run task
+[2025-07-15T19:43:17.013+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp8jpmp7nv']
+[2025-07-15T19:43:17.014+0000] {standard_task_runner.py:85} INFO - Job 43: Subtask wait_for_etl_success
+[2025-07-15T19:43:17.033+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:43:17.065+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:43:17.069+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:43:17.069213+00:00 and 2025-07-15T19:43:17.069213+00:00, looking for states: ['success']
+[2025-07-15T19:43:17.074+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:43:17.081+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:43:17.113+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:43:17.127+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:43:47.354+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:43:47.358+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:43:47.358+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:43:47.365+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:43:47.367+0000] {standard_task_runner.py:57} INFO - Started process 4063 to run task
+[2025-07-15T19:43:47.369+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp8jkuflo4']
+[2025-07-15T19:43:47.370+0000] {standard_task_runner.py:85} INFO - Job 48: Subtask wait_for_etl_success
+[2025-07-15T19:43:47.390+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:43:47.423+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:43:47.428+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:43:47.428354+00:00 and 2025-07-15T19:43:47.428354+00:00, looking for states: ['success']
+[2025-07-15T19:43:47.433+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:43:47.441+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:43:47.465+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:43:47.480+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:44:17.720+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:44:17.724+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:44:17.724+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:44:17.730+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:44:17.732+0000] {standard_task_runner.py:57} INFO - Started process 4104 to run task
+[2025-07-15T19:44:17.734+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp9x99xesj']
+[2025-07-15T19:44:17.735+0000] {standard_task_runner.py:85} INFO - Job 49: Subtask wait_for_etl_success
+[2025-07-15T19:44:17.754+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:44:17.787+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:44:17.791+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:44:17.791181+00:00 and 2025-07-15T19:44:17.791181+00:00, looking for states: ['success']
+[2025-07-15T19:44:17.796+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:44:17.803+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:44:17.830+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:44:17.843+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:44:48.089+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:44:48.093+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:44:48.093+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:44:48.099+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:44:48.101+0000] {standard_task_runner.py:57} INFO - Started process 4165 to run task
+[2025-07-15T19:44:48.103+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '54', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmppx6al5cb']
+[2025-07-15T19:44:48.104+0000] {standard_task_runner.py:85} INFO - Job 54: Subtask wait_for_etl_success
+[2025-07-15T19:44:48.122+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:44:48.154+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:44:48.157+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:44:48.157746+00:00 and 2025-07-15T19:44:48.157746+00:00, looking for states: ['success']
+[2025-07-15T19:44:48.162+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:44:48.170+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:44:48.201+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:44:48.215+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:45:18.403+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:45:18.407+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:45:18.407+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:45:18.413+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:45:18.415+0000] {standard_task_runner.py:57} INFO - Started process 4214 to run task
+[2025-07-15T19:45:18.416+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmp6xqj9uki']
+[2025-07-15T19:45:18.417+0000] {standard_task_runner.py:85} INFO - Job 55: Subtask wait_for_etl_success
+[2025-07-15T19:45:18.436+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:45:18.467+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:45:18.471+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:45:18.471472+00:00 and 2025-07-15T19:45:18.471472+00:00, looking for states: ['success']
+[2025-07-15T19:45:18.476+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:45:18.483+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:45:18.513+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:45:18.532+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:45:48.704+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:45:48.708+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:45:48.708+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:45:48.715+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:45:48.717+0000] {standard_task_runner.py:57} INFO - Started process 4278 to run task
+[2025-07-15T19:45:48.719+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmpwp_ovwdu']
+[2025-07-15T19:45:48.720+0000] {standard_task_runner.py:85} INFO - Job 62: Subtask wait_for_etl_success
+[2025-07-15T19:45:48.740+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:45:48.776+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:45:48.780+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:45:48.780232+00:00 and 2025-07-15T19:45:48.780232+00:00, looking for states: ['success']
+[2025-07-15T19:45:48.785+0000] {recent_external_task_sensor.py:64} INFO - No matching task instances found within the time window.
+[2025-07-15T19:45:48.793+0000] {taskinstance.py:1784} INFO - Rescheduling task, marking task as UP_FOR_RESCHEDULE
+[2025-07-15T19:45:48.817+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:45:48.833+0000] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-07-15T19:46:19.027+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:46:19.031+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [queued]>
+[2025-07-15T19:46:19.031+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-15T19:46:19.037+0000] {taskinstance.py:1327} INFO - Executing <Task(RecentExternalTaskSensor): wait_for_etl_success> on 2025-07-15 19:39:40.435701+00:00
+[2025-07-15T19:46:19.039+0000] {standard_task_runner.py:57} INFO - Started process 4321 to run task
+[2025-07-15T19:46:19.041+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'etl_success_sensor', 'wait_for_etl_success', 'manual__2025-07-15T19:39:40.435701+00:00', '--job-id', '65', '--raw', '--subdir', 'DAGS_FOLDER/success_sensor_dag.py', '--cfg-path', '/tmp/tmpdwhg6t8w']
+[2025-07-15T19:46:19.042+0000] {standard_task_runner.py:85} INFO - Job 65: Subtask wait_for_etl_success
+[2025-07-15T19:46:19.061+0000] {task_command.py:410} INFO - Running <TaskInstance: etl_success_sensor.wait_for_etl_success manual__2025-07-15T19:39:40.435701+00:00 [running]> on host 1e79179934e4
+[2025-07-15T19:46:19.092+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='etl_success_sensor' AIRFLOW_CTX_TASK_ID='wait_for_etl_success' AIRFLOW_CTX_EXECUTION_DATE='2025-07-15T19:39:40.435701+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-07-15T19:39:40.435701+00:00'
+[2025-07-15T19:46:19.096+0000] {recent_external_task_sensor.py:41} INFO - Poking for dbt_build_monolith.end_task between 2025-07-15T17:46:19.096658+00:00 and 2025-07-15T19:46:19.096658+00:00, looking for states: ['success']
+[2025-07-15T19:46:19.101+0000] {recent_external_task_sensor.py:70} INFO - Found task instance <TaskInstance: dbt_build_monolith.end_task scheduled__2025-07-15T19:42:43.374004+00:00 [success]> with state success (end_date: 2025-07-15 19:45:57.908309+00:00)
+[2025-07-15T19:46:19.102+0000] {base.py:255} INFO - Success criteria met. Exiting.
+[2025-07-15T19:46:19.106+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=etl_success_sensor, task_id=wait_for_etl_success, execution_date=20250715T193940, start_date=20250715T194619, end_date=20250715T194619
+[2025-07-15T19:46:19.138+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-15T19:46:19.154+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

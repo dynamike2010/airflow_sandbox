@@ -1,0 +1,15 @@
+[2025-07-16T08:34:38.015+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_build_monolith.process_task scheduled__2025-07-16T08:31:36.684769+00:00 [queued]>
+[2025-07-16T08:34:38.019+0000] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_build_monolith.process_task scheduled__2025-07-16T08:31:36.684769+00:00 [queued]>
+[2025-07-16T08:34:38.019+0000] {taskinstance.py:1308} INFO - Starting attempt 1 of 2
+[2025-07-16T08:34:38.026+0000] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): process_task> on 2025-07-16 08:31:36.684769+00:00
+[2025-07-16T08:34:38.027+0000] {standard_task_runner.py:57} INFO - Started process 983 to run task
+[2025-07-16T08:34:38.029+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'dbt_build_monolith', 'process_task', 'scheduled__2025-07-16T08:31:36.684769+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/dbt_build_monolith.py', '--cfg-path', '/tmp/tmpbaj8vd5n']
+[2025-07-16T08:34:38.030+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask process_task
+[2025-07-16T08:34:38.047+0000] {task_command.py:410} INFO - Running <TaskInstance: dbt_build_monolith.process_task scheduled__2025-07-16T08:31:36.684769+00:00 [running]> on host 6c34bab00aef
+[2025-07-16T08:34:38.083+0000] {taskinstance.py:1547} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='dbt_build_monolith' AIRFLOW_CTX_TASK_ID='process_task' AIRFLOW_CTX_EXECUTION_DATE='2025-07-16T08:31:36.684769+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-07-16T08:31:36.684769+00:00'
+[2025-07-16T08:34:38.083+0000] {logging_mixin.py:150} INFO - Processing for 10 seconds...
+[2025-07-16T08:34:48.085+0000] {logging_mixin.py:150} INFO - completed
+[2025-07-16T08:34:48.085+0000] {python.py:183} INFO - Done. Returned value was: Processing task completed
+[2025-07-16T08:34:48.096+0000] {taskinstance.py:1350} INFO - Marking task as SUCCESS. dag_id=dbt_build_monolith, task_id=process_task, execution_date=20250716T083136, start_date=20250716T083438, end_date=20250716T083448
+[2025-07-16T08:34:48.125+0000] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2025-07-16T08:34:48.138+0000] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
