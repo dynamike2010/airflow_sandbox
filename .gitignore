@@ -129,5 +129,12 @@ logs/
 # VSCode
 .vscode/
 
+# PyCharm/IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
 # MacOS
 .DS_Store
