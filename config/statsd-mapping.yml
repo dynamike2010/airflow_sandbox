@@ -1,0 +1,72 @@
+mappings:
+  # DAG-level metrics: dwh.dag.enabled.env.domain.dag.type
+  - match: "^dwh\\.dag\\.enabled\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_dag_enabled"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+  - match: "^dwh\\.dag\\.status\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_dag_status"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+  - match: "^dwh\\.dag\\.duration_seconds\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_dag_duration_seconds"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+  - match: "^dwh\\.dag\\.execution_time\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_dag_execution_time"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+
+  # Task-level metrics: dwh.task.status.env.domain.dag.type.task
+  - match: "^dwh\\.task\\.status\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_task_status"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+      task: "$5"
+  - match: "^dwh\\.task\\.duration_seconds\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_task_duration_seconds"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+      task: "$5"
+  - match: "^dwh\\.task\\.execution_time\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_task_execution_time"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+      task: "$5"
+  - match: "^dwh\\.task\\.retry_count\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)\\.(\\w+)$"
+    match_type: regex
+    name: "dwh_task_retry_count"
+    labels:
+      env: "$1"
+      domain: "$2"
+      dag: "$3"
+      type: "$4"
+      task: "$5"

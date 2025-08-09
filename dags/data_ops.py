@@ -20,7 +20,7 @@ dag = DAG(
     schedule_interval=None,
     catchup=False,
     max_active_runs=1,
-    tags=['uploader', 'secoda'],
+    tags=['data_ops'],
 )
 
 

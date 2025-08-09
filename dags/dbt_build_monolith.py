@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta, timezone
+import random
 import time
 from airflow import DAG
 from airflow.operators.python import PythonOperator, BranchPythonOperator
@@ -19,10 +20,10 @@ etl = DAG(
     'dbt_build_monolith',
     default_args=default_args,
     description='A DAG that branches based on odd/even minute and fails or succeeds accordingly',
-    schedule_interval=timedelta(minutes=1),
     start_date=datetime(2000, 1, 1),
+    schedule_interval='*/10 * * * *',
     catchup=False,
-    tags=['etl', 'monolith'],
+    tags=['dwh', 'etl', 'monolith'],
 )
 
 def init_task():
@@ -30,8 +31,9 @@ def init_task():
     return "Init completed"
 
 def process_task():
-    print("Processing for 10 seconds...")
-    time.sleep(10)
+    processing_time = random.uniform(50, 60)
+    print(f"Processing for {processing_time:.2f} seconds...")
+    time.sleep(processing_time)
     print("completed")
     return "Processing task completed"
 
