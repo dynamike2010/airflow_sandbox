@@ -30,8 +30,14 @@ def init_task():
     print("Starting ETL execution")
     return "Init completed"
 
-def process_task():
-    processing_time = random.uniform(50, 60)
+
+# Custom operator for process_task with on_kill
+class ProcessTaskOperator(PythonOperator):
+    def on_kill(self):
+        print("[on_kill] Houston! We received SIGTERM!")
+
+def process_task_callable():
+    processing_time = random.uniform(150, 160)
     print(f"Processing for {processing_time:.2f} seconds...")
     time.sleep(processing_time)
     print("completed")
@@ -62,9 +68,9 @@ init_task = PythonOperator(
     dag=etl,
 )
 
-process_task = PythonOperator(
+process_task = ProcessTaskOperator(
     task_id='process_task',
-    python_callable=process_task,
+    python_callable=process_task_callable,
     dag=etl,
 )
 
