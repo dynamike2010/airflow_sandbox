@@ -38,6 +38,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
+      - ./shared:/shared
     user: "50000:0"
     depends_on:
       postgres:
@@ -77,6 +78,7 @@ services:
       - ./logs:/opt/airflow/logs
       - ./plugins:/opt/airflow/plugins
       - ./config:/opt/airflow/config
+      - ./shared:/shared
     user: "50000:0"
     depends_on:
       postgres:
@@ -159,6 +161,7 @@ services:
     volumes:
       - grafana-data:/var/lib/grafana
       - ./config/grafana-provisioning-datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
+      - ./shared:/shared
     ports:
       - 3000:3000
     restart: always
@@ -187,6 +190,7 @@ volumes:
   postgres-db-volume:
   prometheus-data:
   grafana-data:
+  grafana-token:
 
 # Explicit network for all services
 networks:

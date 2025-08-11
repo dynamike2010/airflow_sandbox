@@ -1,3 +1,5 @@
+# Ignore shared folder for secrets/tokens
+shared/
 # Ignore Python cache files and folders
 __pycache__/
 *.pyc
