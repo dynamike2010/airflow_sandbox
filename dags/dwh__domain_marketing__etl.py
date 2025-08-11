@@ -6,25 +6,25 @@ from airflow.operators.python import PythonOperator
 
 def extract_data():
     print("Extracting data from source...")
-    time.sleep(random.uniform(2, 5))
+    time.sleep(random.uniform(2, 10))
     print("Data extracted.")
     return "extract_done"
 
 def transform_data():
     print("Transforming data...")
-    time.sleep(random.uniform(3, 6))
+    time.sleep(random.uniform(6, 8))
     print("Data transformed.")
     return "transform_done"
 
 def load_data():
     print("Loading data into warehouse...")
-    time.sleep(random.uniform(2, 4))
+    time.sleep(random.uniform(1, 4))
     print("Data loaded.")
     return "load_done"
 
 def validate_data():
     print("Validating loaded data...")
-    time.sleep(random.uniform(1, 3))
+    time.sleep(random.uniform(3, 5))
     print("Data validation complete.")
     return "validate_done"
 
@@ -42,13 +42,13 @@ default_args = {
 }
 
 dag = DAG(
-    'domain_a_etl',
+    'domain_marketing_etl',
     default_args=default_args,
-    description='Sample DWH domain_b ETL pipeline for metrics testing',
+    description='Sample DWH domain_marketing ETL pipeline for metrics testing',
     start_date=datetime(2000, 1, 1),
-    schedule_interval='*/2 * * * *',
+    schedule_interval='*/3 * * * *',
     catchup=False,
-    tags=['dwh', 'etl', 'domain_a'],
+    tags=['dwh', 'etl', 'domain_marketing'],
 )
 
 extract = PythonOperator(

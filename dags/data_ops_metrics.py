@@ -27,7 +27,8 @@ def send_metrics():
     for dag in dag_models:
         # Use dot-separated tags to match mapping file: dwh.dag.enabled.env.domain.dag.type
         env = ENV
-        domain = "core"
+        # Extract domain from dag tags (first tag.name starting with "domain")
+        domain = next((tag.name for tag in (dag.get_default_view() and dag.tags or []) if hasattr(tag, 'name') and tag.name.startswith("domain")), None)
         dag_id = dag.dag_id
         mtype = "etl"
 

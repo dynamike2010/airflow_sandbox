@@ -12,6 +12,21 @@
         "iconColor": "rgba(0, 211, 255, 1)",
         "name": "Annotations & Alerts",
         "type": "dashboard"
+      },
+      {
+        "datasource": {
+          "type": "datasource",
+          "uid": "grafana"
+        },
+        "enable": true,
+        "hide": false,
+        "iconColor": "red",
+        "name": "DWH annotations",
+        "target": {
+          "expr": "",
+          "interval": "",
+          "refId": "Anno"
+        }
       }
     ]
   },
@@ -70,7 +85,7 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 8,
+        "h": 5,
         "w": 18,
         "x": 0,
         "y": 0
@@ -218,10 +233,10 @@
         "overrides": []
       },
       "gridPos": {
-        "h": 9,
+        "h": 12,
         "w": 18,
         "x": 0,
-        "y": 8
+        "y": 5
       },
       "id": 3,
       "options": {
@@ -245,7 +260,7 @@
       "targets": [
         {
           "editorMode": "builder",
-          "expr": "dwh_dag_duration_seconds",
+          "expr": "dwh_dag_duration_seconds{domain=~\"$Domains\"}",
           "legendFormat": "{{dag}}",
           "range": true,
           "refId": "A"
@@ -253,22 +268,146 @@
       ],
       "title": "Dag duration",
       "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "PBFA97CFB590B2093"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "left",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 10,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "smooth",
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "s"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 24,
+        "x": 0,
+        "y": 17
+      },
+      "id": 4,
+      "options": {
+        "legend": {
+          "calcs": [],
+          "displayMode": "list",
+          "placement": "bottom",
+          "showLegend": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.2.0-16818804881",
+      "targets": [
+        {
+          "editorMode": "builder",
+          "expr": "dwh_dag_duration_seconds",
+          "legendFormat": "{{dag}}",
+          "range": true,
+          "refId": "A"
+        }
+      ],
+      "title": "DAG duration",
+      "type": "timeseries"
     }
   ],
   "preload": false,
-  "refresh": "30s",
+  "refresh": "10s",
   "schemaVersion": 41,
   "tags": [],
   "templating": {
-    "list": []
+    "list": [
+      {
+        "current": {
+          "text": [
+            "domain_marketing",
+            "domain_monolith",
+            "domain_sales"
+          ],
+          "value": [
+            "domain_marketing",
+            "domain_monolith",
+            "domain_sales"
+          ]
+        },
+        "definition": "label_values(dwh_dag_status,domain)",
+        "multi": true,
+        "name": "Domains",
+        "options": [],
+        "query": {
+          "qryType": 1,
+          "query": "label_values(dwh_dag_status,domain)",
+          "refId": "PrometheusVariableQueryEditor-VariableQuery"
+        },
+        "refresh": 1,
+        "regex": "",
+        "type": "query"
+      }
+    ]
   },
   "time": {
-    "from": "now-3h",
+    "from": "now-15m",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "browser",
   "title": "DWH",
   "uid": "791199cf-d989-41e8-8613-e2b629a0dba4",
-  "version": 13
+  "version": 18
 }
