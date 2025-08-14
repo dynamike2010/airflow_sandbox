@@ -1,12 +1,12 @@
+import logging
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from airflow.settings import Session
 from airflow.models import DagModel, DagRun, TaskInstance
 from airflow.utils.state import State
-
-import logging
 from statsd import StatsClient
+from datetime import timezone
 
 # Configurable
 ENV = "prod"
@@ -17,12 +17,10 @@ statsd = StatsClient(host="statsd-exporter", port=9125)
 
 def send_metrics():
     session = Session()
-    from datetime import timezone
     now = datetime.now(timezone.utc)
     since = now - timedelta(hours=CUTOFF_HOURS)
 
     dag_models = session.query(DagModel).filter(DagModel.is_active == True).all()
-
 
     for dag in dag_models:
         # Use dot-separated tags to match mapping file: dwh.dag.enabled.env.domain.dag.type

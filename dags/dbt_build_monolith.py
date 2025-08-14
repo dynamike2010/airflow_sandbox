@@ -21,7 +21,7 @@ etl = DAG(
     default_args=default_args,
     description='A DAG that branches based on odd/even minute and fails or succeeds accordingly',
     start_date=datetime(2000, 1, 1),
-    schedule_interval='*/10 * * * *',
+    schedule_interval='*/5 * * * *',
     catchup=False,
     tags=['dwh', 'etl', 'monolith'],
 )

@@ -2,7 +2,7 @@
 services:
   postgres:
     image: postgres:13
-    container_name: postgres
+    container_name: sandbox_postgres
     environment:
       POSTGRES_USER: airflow
       POSTGRES_PASSWORD: airflow
