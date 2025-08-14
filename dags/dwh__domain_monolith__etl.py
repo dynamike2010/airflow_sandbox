@@ -17,21 +17,27 @@ default_args = {
 }
 
 etl = DAG(
-    'dbt_build_monolith',
+    'monolith',
     default_args=default_args,
     description='A DAG that branches based on odd/even minute and fails or succeeds accordingly',
     start_date=datetime(2000, 1, 1),
     schedule_interval='*/5 * * * *',
     catchup=False,
-    tags=['dwh', 'etl', 'monolith'],
+    tags=['dwh', 'etl', 'domain_monolith'],
 )
 
 def init_task():
     print("Starting ETL execution")
     return "Init completed"
 
-def process_task():
-    processing_time = random.uniform(50, 60)
+
+# Custom operator for process_task with on_kill
+class ProcessTaskOperator(PythonOperator):
+    def on_kill(self):
+        print("[on_kill] Houston! We received SIGTERM!")
+
+def process_task_callable():
+    processing_time = random.uniform(150, 160)
     print(f"Processing for {processing_time:.2f} seconds...")
     time.sleep(processing_time)
     print("completed")
@@ -62,9 +68,9 @@ init_task = PythonOperator(
     dag=etl,
 )
 
-process_task = PythonOperator(
+process_task = ProcessTaskOperator(
     task_id='process_task',
-    python_callable=process_task,
+    python_callable=process_task_callable,
     dag=etl,
 )
 

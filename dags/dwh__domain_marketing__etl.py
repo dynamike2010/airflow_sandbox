@@ -42,13 +42,13 @@ default_args = {
 }
 
 dag = DAG(
-    'domain_b_etl',
+    'domain_marketing_etl',
     default_args=default_args,
-    description='Sample DWH domain_b ETL pipeline for metrics testing',
+    description='Sample DWH domain_marketing ETL pipeline for metrics testing',
     start_date=datetime(2000, 1, 1),
     schedule_interval='*/3 * * * *',
     catchup=False,
-    tags=['dwh', 'etl', 'domain_b'],
+    tags=['dwh', 'etl', 'domain_marketing'],
 )
 
 extract = PythonOperator(
